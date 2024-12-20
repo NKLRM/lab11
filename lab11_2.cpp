@@ -51,7 +51,7 @@ void checkWinner(int p, int y){
 }
 
 int main(){	
-    srand(time(0)); //This line of code is not completed. Fill the correct input of srand(); 
+    srand(time(0));
 
 	int playerScore, yugiScore, playerAction, yugiAction;
 	int playerCards[3] = {drawCard(), drawCard(), 0};
