@@ -12,14 +12,8 @@ int main(){
     string x; int r,j=0;
     r=rand()%9;
     string grade[9]={"A","B+","B","C+","C","D+","D","F","W"};
-    for(int i=0;i<3;i++){
-        cin >> x;
-        if(x=="\0")
-            j++;
-        else
-            j++;
-        if(j>=3)
-            break;
-    }
+    cin.ignore();
+    cin.ignore();
+    cin.ignore();
     cout << "You will get " << grade[r] << " in this 261102.";
 }
